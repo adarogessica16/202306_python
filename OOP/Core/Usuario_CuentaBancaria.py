@@ -1,7 +1,7 @@
 class CuentaBancaria:
-    cuentas = []  # Lista para almacenar todas las instancias de cuentas creadas
+    cuentas = []
 
-    def __init__(self, balance, tasa_interés=5):
+    def __init__(self, balance, tasa_interés):
         self.balance = balance
         self.tasa_interés = tasa_interés
         CuentaBancaria.cuentas.append(self)
